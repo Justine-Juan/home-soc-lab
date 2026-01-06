@@ -59,7 +59,7 @@ Each report includes:
 ---
 
 ## Dashboard & Screenshots
-Screenshots of the SOC environment are stored in `screenshots/`:
+Screenshots of the SOC environment are stored in [Screenshots](screenshots/):
 
 - Alerts table showing failed logins, service creation, and privilege escalation  
 
