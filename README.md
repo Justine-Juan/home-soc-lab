@@ -65,11 +65,7 @@ Screenshots of the SOC environment are stored in `screenshots/`:
 
 ---
 
-## Configurations
-The `configurations/` folder includes:
-
-- **wazuh-agent-windows.xml** → Agent configuration on Windows endpoint  
-- **wazuh-server-config.md** → Server-side settings and rules used  
+## Lab Setup
 
 These allow reproducibility of the lab.
 
