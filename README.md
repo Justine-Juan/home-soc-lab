@@ -17,7 +17,7 @@ The goal is to simulate a real SOC Level 1 analyst workflow for **incident detec
 - **Wazuh** (SIEM/endpoint monitoring)
 - **Windows 11 VM** (endpoint)
 - **Ubuntu Server VM** (Wazuh manager)
-- 
+
 ---
 
 ## Architecture
