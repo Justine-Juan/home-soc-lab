@@ -63,9 +63,7 @@ Screenshots of the SOC environment are stored in [Screenshots](screenshots/):
 ---
 
 ## Lab Setup
-
-These allow reproducibility of the lab.
-
+- [Lab Setup](lab-setup/lab-activity.md) -- These allow reproducibility of the lab. 
 ---
 
 ## Learning Outcomes
