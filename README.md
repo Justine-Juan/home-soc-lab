@@ -21,13 +21,10 @@ The goal is to simulate a real SOC Level 1 analyst workflow for **incident detec
 ---
 
 ## Architecture
-The lab architecture is shown below:
-
 - **Windows VM** → Wazuh agent collects Windows events →  
 - **Wazuh Manager** → Processes and rules alerts →  
 - **Wazuh Dashboard** → Analysts review alerts, investigate, and respond
 
-![SOC Lab Architecture](architecture/soc-architecture.png)
 
 ---
 
