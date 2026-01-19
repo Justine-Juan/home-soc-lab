@@ -12,8 +12,8 @@ Step 1: Create Ubuntu VM (Wazuh Server)
         - **Disk:** 50 GB
 - Run the Ubuntu Server VM
 
-📸 Screenshot:
-
+📸 Screenshot:<br/>
+![](../screenshots/1-WazuhServerVM.png)
 
 
 Step 2: Install Wazuh (All-in-One)
@@ -46,7 +46,7 @@ cd /usr/share/wazuh-indexer/plugins/opensearch-security/tools
 
 
 📸 Screenshot: 
-
+![Wazuh Installation](../screenshots/2-WazuhInstallation.png)
 
 
 Step 3: Create the Windows Endpoint VM
@@ -73,7 +73,7 @@ NOTE: To skip Microsoft Account Log In
 </aside>
 
 📸 Screenshot:
-
+![](../screenshots/4-WindowsVM.png)
 
 
 Step 4: Install Wazuh Agent on Windows
@@ -91,7 +91,9 @@ Step 4: Install Wazuh Agent on Windows
         
     - Verification that the Wazuh Agent is Added
         
-        !
+ 📸 Screenshot:
+![](../screenshots/5-WazuhAgent.png)
+![](../screenshots/7-WazuhAgentAdded.png)
         
 
 Step 5: Confirm Windows Logs Are Arriving
@@ -106,7 +108,7 @@ In Wazuh Dashboard:
     - Log source = Windows
 
 📸 Screenshot:
-
+![](../screenshots/8-WazuhDashboard.png)
 
 
 Step 6: Generate SOC-Relevant Activity
@@ -117,7 +119,7 @@ Activity 1: Failed Login Attempts
 - Enter wrong password **5–10 times**
 
 📸 Screenshot:
-
+![](../screenshots/9-FailedLoginAlert.png)
 
 
 Activity 2: Suspicious PowerShell Execution
@@ -129,7 +131,7 @@ sc create TestService binPath= "cmd.exe /c echo SOC-Test"
 ```
 
 📸 Screenshot:
-- Process creation alert
+![](../screenshots/11-ProcessCreationAlert.png)
 
 
 
@@ -147,5 +149,8 @@ Activity 3: New Local User Creation and Added to Administrators Group
 3. Add to Administrators Group
 
 📸 Screenshot:
+![](../screenshots/14-PrivilegeEscalationAlert.png)
 
-Step 7: Investigate Alerts
+Step 7: Investigate and Incident Report <br/>
+[Incident Reports](../incident-reports)
+
