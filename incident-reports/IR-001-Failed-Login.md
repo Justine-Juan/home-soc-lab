@@ -10,7 +10,7 @@ Multiple failed login attempts detected on the Windows endpoint. Likely caused b
 - Timestamp: 2026-01-06 16:30
 - Severity: Medium
 
-![Failed Login Alert](../screenshots/9-Failed Login Alert.png)
+![Failed Login Alert](../screenshots/9-FailedLoginAlert.png)
 
 ## Investigation Steps
 
