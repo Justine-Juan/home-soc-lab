@@ -44,9 +44,9 @@ The lab architecture is shown below:
 ## Incident Reports
 Detailed investigations for each activity are documented in the `incident-reports` folder:
 
-1. **IR-001-Failed-Login.md** – Authentication failure investigation  
-2. **IR-002-Service-Creation.md** – Service creation investigation  
-3. **IR-003-Privilege-Escalation.md** – Privilege escalation investigation  
+1. [IR-001-Failed-Login.md](incident-reports/IR-001-Failed-Login.md) – Authentication failure investigation  
+2. [IR-002-Service-Creation.md](incident-reports/IR-002-Service-Creation.md) – Service creation investigation  
+3. [IR-003-Privilege-Escalation.md](incident-reports/IR-003-Privilege-Escalation.md) – Privilege escalation investigation  
 
 Each report includes:
 
